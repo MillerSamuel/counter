@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Counter</h1>
+    <h3>{{session['count']}} times</h2>
+        <div class="contain">
+            <a href="/add"><button> Add</button></a>
+            <a href="/destroy_session"><button >Reset</button></a>
+        </div>
+</body>
+</html>

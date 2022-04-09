@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h3{
+    text-align: center;
+    margin: 20px;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0 auto;
+}
+
+button{
+    background-color: lightgreen;
+    width: 5rem;
+    height: 2rem;
+}
+
+button a{
+    text-decoration: unset;
+    color: white;
+}
